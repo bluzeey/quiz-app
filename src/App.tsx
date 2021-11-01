@@ -2,8 +2,8 @@ import {useState} from 'react'
 import QuestionCard from "./components/QuestionCard";
 import { QuestionState,Difficulty } from './Api';
 import { fetchQuizQuestions } from './Api';
-
-type AnswerObject={
+import { GlobalStyle,Wrapper } from './App.styles';
+export type AnswerObject={
   question:string;
   answer:string;
   correct:boolean;
@@ -50,18 +50,25 @@ function App() {
   };
 
   const nextQuestion=()=>{
-
+    const nextQuestion=number+1;
+    if(nextQuestion===TOTAL_QUESTIONS){
+      setGameOver(true)
+    }else{
+      setNumber(nextQuestion)
+    }
   }
 
   return (
-    <div>
+    <>
+    <GlobalStyle/>
+    <Wrapper>
       <h1>React Quiz</h1>
       {gameOver || userAnswers.length===TOTAL_QUESTIONS ?(
       <button className="start" onClick={startTrivia}>
         Start
       </button>
       ):null}
-      {!gameOver ?<p className="score">Score:</p>:null}
+      {!gameOver ?<p className="score">Score:{score}</p>:null}
       {loading && <p>Loading Questions...</p>}
       {!loading && !gameOver &&(
       <QuestionCard
@@ -78,7 +85,8 @@ function App() {
         New Question
       </button>
       ):null}
-    </div>
+    </Wrapper>
+    </>
   );
 }
 
