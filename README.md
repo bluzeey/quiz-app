@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/bluzeey/quiz-app">
-    <img src="src/quiz.jpg" alt="Logo" width="80" height="80">
+    <img src="src/images/quiz.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">React Quiz App</h3>
@@ -98,7 +98,6 @@ This is an example of how to list things you need to use the software and how to
 2. Install NPM packages
    ```sh
    npm install
-   ```
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
