@@ -8,23 +8,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/bluzeey/whatsapp-clone">
-    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/bluzeey/quiz-app">
+    <img src="src/quiz.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Whatsapp Version 2</h3>
+<h3 align="center">React Quiz App</h3>
 
   <p align="center">
-    This is a whatsapp clone which I have created using NextJS, React and Firebase (as the backend).
+    This is a React Quiz Application which is made with React and Typescript. 
     <br />
-    <a href="https://github.com/bluzeey/whatsapp-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bluzeey/quiz-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://whatsappv2-nextjs.vercel.app/">View Demo</a>
+    <a href="https://quiz-with-react.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/bluzeey/whatsapp-clone/issues">Report Bug</a>
+    <a href="https://github.com/bluzeey/quiz-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/bluzeey/quiz-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -52,7 +52,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -61,9 +60,8 @@
 <!-- ABOUT THE PROJECT -->
 ## React Quiz App
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://quiz-with-react.netlify.app/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,7 +79,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -102,9 +99,6 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-3. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -114,7 +108,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This whatsapp clone is fully functional . For usage, just type any email address you want to send a message to. 
+This quiz application is fully functional. It measures score and provides the correct answer as feedback
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -134,7 +128,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@TalkinIdeas](https://twitter.com/TalkinIdeas) - sahilm1711@gmail.com
+Sahil Maheshwari - [@TalkinIdeas](https://twitter.com/TalkinIdeas) - sahilm1711@gmail.com
 
 Project Link: [WhatsappV2](https://whatsappv2-nextjs.vercel.app/)
 
@@ -142,12 +136,7 @@ Project Link: [WhatsappV2](https://whatsappv2-nextjs.vercel.app/)
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
-* [Sonny Sangha](https://github.com/sonnysangha)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -157,6 +146,6 @@ Project Link: [WhatsappV2](https://whatsappv2-nextjs.vercel.app/)
 [license-url]: https://github.com/bluzeey/whatsapp-clone/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/sahil-maheshwari
-[product-screenshot]: public/whatsapp.PNG
+[product-screenshot]: src/images/reactQuiz.PNG
 
 
